@@ -27,13 +27,11 @@ this.style.color= "green";
      break;
 
      case "s":
-        var tom3 = new Audio("sounds/Tom-3.mp3");
-        tom3.play();
+       
      break;
 
      case "d": 
-        var tom4 = new Audio("sounds/Tom-4.mp3");
-        tom4.play();
+     
      break;  
 
      case "j":
