@@ -27,7 +27,10 @@ this.style.color= "green";
      break;
 
      case "s":
-       
+       playMusic: function() {
+                var audio = new Audio("../../media/KR881.mp3");
+                audio.play();
+            },
      break;
 
      case "d": 
