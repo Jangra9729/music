@@ -22,8 +22,8 @@ this.style.color= "green";
      break;
     
      case "a":
-        var tom2 = new Audio("sounds/Tom-2.mp3");
-        tom2.play();
+        // var tom2 = new Audio("sounds/Tom-2.mp3");
+        // tom2.play();
      break;
 
      case "s":
