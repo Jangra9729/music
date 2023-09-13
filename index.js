@@ -27,14 +27,13 @@ this.style.color= "green";
      break;
 
      case "s":
-       playMusic: function() {
-                var audio = new Audio("../../media/KR881.mp3");
-                audio.play();
-            },
+           var tom3 = new Audio("sounds/tom-3.mp3");
+           tom3.play();
      break;
 
      case "d": 
-     
+          var tom4 = new Audio("sounds/tom-4.mp3");
+          tom4.play();
      break;  
 
      case "j":
