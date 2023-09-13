@@ -32,8 +32,13 @@ this.style.color= "green";
      break;
 
      case "d":
-        var tom4 = new Audio("sounds/Tom-4.mp3");
-        tom4.play();
+                function() {
+                var audio = new Audio("../../media/KR881.mp3");
+                audio.play();
+            },
+         
+        // var tom4 = new Audio("sounds/Tom-4.mp3");
+        // tom4.play();
      break;  
 
      case "j":
