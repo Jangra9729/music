@@ -16,9 +16,13 @@ this.style.color= "green";
 
  switch (btninnerHTML) {
    
-  case "w":
-     var tom1 = new Audio("sounds/snare.mp3");
-     tom1.play();
+   case "w":
+          function() {
+                var audio = new Audio("sounds/tom-1.mp3");
+                audio.play();
+            }
+  //    var tom1 = new Audio("sounds/tom-1.mp3");
+  //    tom1.play();
      break;
     
      case "a":
