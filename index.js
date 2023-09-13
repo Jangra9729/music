@@ -21,14 +21,9 @@ this.style.color= "green";
      tom1.play();
      break;
     
-     case "a":
-            playMusic: function() {
-                var audio = new Audio("../../media/KR881.mp3");
-                audio.play();
-            },
-         
-        // var tom2 = new Audio("sounds/tom-2.mp3");
-        // tom2.play();
+     case "a":    
+         var tom2 = new Audio("sounds/tom-2.mp3");
+        tom2.play();
      break;
 
      case "s":
